@@ -7,6 +7,7 @@
     <groupId>com.zhy.taotao</groupId>
     <artifactId>taotao-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <!-- 集中定义依赖版本号 -->
     <properties>
@@ -98,11 +99,11 @@
                 <artifactId>mybatis-paginator</artifactId>
                 <version>${mybatis.paginator.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.github.pagehelper</groupId>
-                <artifactId>pagehelper</artifactId>
-                <version>${pagehelper.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.github.pagehelper</groupId>-->
+                <!--<artifactId>pagehelper</artifactId>-->
+                <!--<version>${pagehelper.version}</version>-->
+            <!--</dependency>-->
             <!-- MySql -->
             <dependency>
                 <groupId>mysql</groupId>

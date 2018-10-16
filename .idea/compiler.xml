@@ -6,12 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="taotao-common" />
         <module name="taotao-manager-mapper" />
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
-        <module name="taotao-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
